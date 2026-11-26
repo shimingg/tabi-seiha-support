@@ -64,3 +64,11 @@ footer p { margin: 0; }
   .contact { break-inside: avoid; }
   main, .bar, footer { width: 100%; }
 }
+
+.choices { width: min(18rem, calc(100vw - 2.5rem)); }
+.choices input { width: 100%; margin: 0 0 .3rem; padding: .55rem .65rem; font: inherit; font-size: 1rem; border: 1px solid var(--rule); border-radius: .3rem; }
+.language-list { max-height: min(52vh, 21rem); overflow-y: auto; overscroll-behavior: contain; }
+.choices [hidden] { display: none; }
+.page-nav a, .languages summary, h1, h2 { overflow-wrap: anywhere; }
+.page-nav { min-width: 0; }
+[dir="rtl"] .choices { text-align: start; }
